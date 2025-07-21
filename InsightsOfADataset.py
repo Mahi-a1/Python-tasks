@@ -36,3 +36,24 @@ plt.figure(figsize=(8, 6))
 sns.heatmap(df.corr(numeric_only=True), annot=True, cmap='coolwarm', fmt=".2f")
 plt.title("Feature Correlation Heatmap")
 plt.show()
+# Average Petal Length:
+# The overall average petal length is around 3.76 cm.
+
+# Species-wise Petal Length:
+
+# Setosa has the shortest petals.
+
+# Virginica has the longest.
+
+# Scatter Plot:
+
+# Clear separation between species based on petal size.
+
+# Setosa is very distinct and linearly separable.
+
+# Heatmap:
+
+# Strong positive correlation between petal_length and petal_width (~0.96).
+
+# sepal_length and petal_length are also highly correlated (~0.87).
+
